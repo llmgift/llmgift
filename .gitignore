@@ -1,0 +1,4 @@
+node_modules/
+.llmgift/
+*.gift.md
+.env

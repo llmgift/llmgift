@@ -1,0 +1,15 @@
+{
+  "name": "llmgift",
+  "version": "0.1.0",
+  "description": "Gift someone a spending-capped, expiring LLM API key (OpenRouter, Vercel AI Gateway) with ready-to-paste setup for their coding tools.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "llmgift": "bin/llmgift.js" },
+  "files": ["bin", "src", "skills", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["llm", "api-key", "gift", "openrouter", "vercel", "ai-gateway", "claude-code", "codex", "budget"],
+  "repository": { "type": "git", "url": "git+https://github.com/llmgift/llmgift.git" },
+  "homepage": "https://github.com/llmgift/llmgift#readme",
+  "bugs": { "url": "https://github.com/llmgift/llmgift/issues" }
+}
